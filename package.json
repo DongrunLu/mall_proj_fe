@@ -4,7 +4,7 @@
   "description": "mmall_fe",
   "main": "index.js",
   "scripts": {
-    "dev": "WEBPACK_ENV=dev webpack-dev-server --inline --port 8088",
+    "dev": "WEBPACK_ENV=dev && webpack-dev-server --inline --port 8088",
     "dist" : "WEBPACK_ENV=online webpack -p"
   },
   "repository": {
